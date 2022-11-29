@@ -1,0 +1,219 @@
+:root {
+  --primary-color: #212121;
+  --text-color: #757575;
+  --selection-color: #2196f3;
+  --background-color: #2f303a;
+  --hero-font-color: #ffffff;
+  --footer-logo-address-color: rgba(255, 255, 255, 1);
+  --footer-links-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  color: var(--primary-color);
+}
+
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.blue-element {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color: #2196f3;
+}
+
+.header-tel-link,
+.header-mail-link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.header-tel-link:hover,
+.header-tel-link:focus {
+  color: var(--selection-color);
+}
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: var(--selection-color);
+}
+
+.hero {
+  color: var(--hero-font-color);
+  background-color: var(--background-color);
+}
+
+.hero-head {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--selection-color);
+  cursor: pointer;
+}
+
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+  background-color: var(--selection-color);
+  color: var(--hero-font-color);
+}
+
+.text-headline {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-color);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+
+.headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-color);
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.projects-pic-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+
+.projects-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+.footer {
+  background-color: var(--background-color);
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--footer-logo-address-color);
+  text-decoration: none;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--footer-logo-address-color);
+}
+
+.footer-tel-link,
+.agency-footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--footer-links-color);
+}
+
+.footer-tel-link:hover,
+.footer-tel-link:focus {
+  color: var(--selection-color);
+}
+
+.agency.footer-mail:hover,
+.agency-footer-mail:focus {
+  color: var(--selection-color);
+}
+
+.portfolio-footer-mail {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+  color: var(--footer-links-color);
+}
+
+.portfolio-footer-mail:hover,
+portfolio-footer-mail:focus {
+  color: var(--selection-color);
+}
