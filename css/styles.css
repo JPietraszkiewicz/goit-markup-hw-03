@@ -108,6 +108,7 @@ body {
 .hero {
   color: var(--hero-font-color);
   background-color: var(--background-color);
+  padding: 94px;
 }
 
 .hero-head {
@@ -117,6 +118,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin: 0 auto;
+  width: 696px;
+  padding-bottom: 30px;
 }
 
 .hero-btn {
@@ -127,7 +131,17 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--selection-color);
+  border: none;
+  color: var(--hero-font-color)
   cursor: pointer;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 41px;
+  padding-left: 42px;
+  display: flex;
+  justify-content: center;
+
 }
 
 .filters-btn {
