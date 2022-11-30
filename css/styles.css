@@ -199,15 +199,29 @@ body {
 
   color: var(--text-color);
 }
+.our-profession {
+  padding-bottom: 94px;
+}
 
-.headline {
+.our-profession > .container {
+  margin: 0 auto;
+}
+
+.our-profession-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+  padding: 0;
+}
+.our-profession-headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--primary-color);
+  margin: 0 auto;
 }
 
 .team-member {
