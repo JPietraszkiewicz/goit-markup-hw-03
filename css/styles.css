@@ -8,9 +8,32 @@
   --footer-links-color: rgba(255, 255, 255, 0.6);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--primary-color);
+}
+.section {
+  width: 1600px;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+}
+
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -21,6 +44,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--primary-color);
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .blue-element {
@@ -29,6 +54,14 @@ body {
 
 .list {
   list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  gap: 46px;
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .nav-item {
@@ -43,6 +76,13 @@ body {
 .nav-item:hover,
 .nav-item:focus {
   color: #2196f3;
+}
+.contacts-list {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .header-tel-link,
