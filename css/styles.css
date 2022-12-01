@@ -6,6 +6,7 @@
   --hero-font-color: #ffffff;
   --footer-logo-address-color: rgba(255, 255, 255, 1);
   --footer-links-color: rgba(255, 255, 255, 0.6);
+  --our-team-background-color: #f5f4fa;
 }
 
 *,
@@ -29,6 +30,7 @@ body {
   width: 1200px;
   padding: 0 15px;
 }
+/* HEADER */
 
 .header > .container {
   display: flex;
@@ -105,6 +107,8 @@ body {
   color: var(--selection-color);
 }
 
+/* HERO */
+
 .hero {
   color: var(--hero-font-color);
   background-color: var(--background-color);
@@ -160,6 +164,8 @@ body {
   color: var(--hero-font-color);
 }
 
+/* OUR ASSETS */
+
 .our-assets {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -182,7 +188,7 @@ body {
   margin-top: 10px;
 }
 
-.text-headline {
+.our-assets-text-headline {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -192,13 +198,16 @@ body {
   color: var(--primary-color);
 }
 
-.text {
+.our-assets-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
   color: var(--text-color);
 }
+
+/* CZYM SIĘ ZAJMUJEMY */
+
 .our-profession {
   padding-bottom: 94px;
 }
@@ -224,6 +233,41 @@ body {
   margin: 0 auto;
 }
 
+/* NASZ ZESPÓŁ */
+
+.our-team-section {
+  background-color: var(--our-team-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.our-team-section .container {
+  margin: 0 auto;
+}
+
+.our-team-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+  margin: 0 auto 50px;
+}
+
+.our-team-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.our-team-list-item {
+  flex-basis: calc((100%-90px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 .team-member {
   font-weight: 500;
   font-size: 16px;
@@ -231,6 +275,8 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--primary-color);
+  text-align: center;
+  margin: 30px 99px 10px 99px;
 }
 
 .team-position {
@@ -238,6 +284,8 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .projects-pic-title {
