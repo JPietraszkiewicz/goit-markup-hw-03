@@ -288,24 +288,19 @@ body {
   padding-bottom: 30px;
 }
 
-.projects-pic-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-color);
-}
+/* FOOTER */
 
-.projects-description {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-}
 .footer {
   background-color: var(--background-color);
+  width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
+.footer .container {
+  margin: 0 auto;
+  width: 1200px;
+}
 .footer-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -314,6 +309,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--footer-logo-address-color);
   text-decoration: none;
+  padding-bottom: 20px;
+  display: flex;
 }
 
 .address {
@@ -321,8 +318,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-logo-address-color);
+  padding-bottom: 9px;
 }
-
+.agency-footer-mail {
+  padding-bottom: 9px;
+}
 .footer-tel-link,
 .agency-footer-mail {
   font-size: 14px;
@@ -337,7 +337,7 @@ body {
   color: var(--selection-color);
 }
 
-.agency.footer-mail:hover,
+.agency-footer-mail:hover,
 .agency-footer-mail:focus {
   color: var(--selection-color);
 }
@@ -353,4 +353,19 @@ body {
 .portfolio-footer-mail:hover,
 portfolio-footer-mail:focus {
   color: var(--selection-color);
+}
+
+.projects-pic-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+}
+
+.projects-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
 }
