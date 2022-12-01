@@ -34,7 +34,7 @@ body {
 
 .header > .container {
   display: flex;
-  justify-content: space-between;
+
   margin: 0 auto;
 }
 
@@ -48,6 +48,7 @@ body {
   color: var(--primary-color);
   margin-top: 24px;
   margin-bottom: 25px;
+  margin-right: 93px;
 }
 
 .blue-element {
@@ -64,6 +65,7 @@ body {
   padding: 0;
   margin-top: 32px;
   margin-bottom: 32px;
+  margin-right: 371px;
 }
 
 .nav-item {
@@ -352,7 +354,7 @@ body {
   color: var(--primary-color);
   border: none;
   cursor: pointer;
-  margin: 0 8px;
+  margin: 0 4px;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
 }
@@ -362,6 +364,52 @@ body {
   background-color: var(--selection-color);
   color: var(--hero-font-color);
 }
+
+/* PROJECTS */
+
+.projects-section {
+  padding-bottom: 94px;
+}
+
+.projects-section .container {
+  margin: 0 auto;
+  display: flex;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.projects-list-item {
+  display: flex;
+  flex-basis: calc((100%-60px) / 3);
+}
+
+figure {
+  border: 1px solid #eeeeee;
+  margin-top: 30px;
+}
+
+.projects-pic-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+  margin: 20px 24px 4px 24px;
+}
+
+.projects-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin: 0 24px 20px 24px;
+}
+
+/*PORTFOLIO FOOTER */
 
 .portfolio-footer-mail {
   font-size: 14px;
@@ -374,19 +422,4 @@ body {
 .portfolio-footer-mail:hover,
 portfolio-footer-mail:focus {
   color: var(--selection-color);
-}
-
-.projects-pic-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-color);
-}
-
-.projects-description {
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
 }
