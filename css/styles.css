@@ -22,13 +22,11 @@ body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
   color: var(--primary-color);
 }
-.section {
-  width: 1600px;
-}
 
 .container {
   width: 1200px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 /* HEADER */
 
@@ -277,7 +275,7 @@ body {
 
 .footer {
   background-color: var(--background-color);
-  width: 1600px;
+
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -346,7 +344,7 @@ body {
 }
 
 .filters-btn {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
